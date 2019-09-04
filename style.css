@@ -23,6 +23,12 @@ a:hover{
     background-color: rgb(133, 179, 25);
     margin: 0px 100px;
 }
+.container-full{
+margin: 10px auto;
+overflow: auto;
+width: 100%;
+background-color: rgb(133, 179, 25);
+}
 .bg-cadet {
     background-color: cadetblue; 
 
@@ -67,32 +73,35 @@ a:hover{
     font-size: 8px; 
 
 }
-
-.footer1,
-.footer2{
-
-    float: left;
-}
-
 .footer1{ 
     width: 30%;
 }
 .footer2{ 
-    width: 30%;
+    margin-top: 10px;
+    width: auto;
+}
+.footer-box{
+    width: 20.9%;
+    float: left;
+    margin: 60px;
 }
 .footer-box li {
     padding: 2px;
 }
-.footer-box img{
-
+.copy-right{
+    font-size: 20px;
+    color: black;
+    margin: 60px;
 }
 .footer-box h4{
     text-transform: uppercase;
 }
 .box1{
-    width: 50%; 
+    width: 48.9%; 
+    float: left;
    
 }
 .box2{
-    width: 50%;
+    width: 48.9%;
+    float: right;
 }
